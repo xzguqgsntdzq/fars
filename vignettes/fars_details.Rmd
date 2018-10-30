@@ -1,0 +1,21 @@
+---
+title: "fars_details"
+author: "Krzysztof G"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+## Vignette Info
+
+fars is a project aimed to streamline plotting and creating summaries of fatal road accidents data. Given a vector of years it is able to create a table of numbers of accidents in each month in each  year using fars_summarize_years function. Maps are created with fars_map_state function which accepts state number and a year as arguments. 
