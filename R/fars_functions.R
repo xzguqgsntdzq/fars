@@ -114,7 +114,6 @@ fars_summarize_years <- function(years) {
 #'
 #' @importFrom graphics points
 #' @importFrom maps map
-#' @importFrom magrittr %>%
 #'
 #' @return This function doesn't return anything. The side effect is a plot of accidents location.
 #'
