@@ -10,3 +10,6 @@ Description: A function for plotting accident data on maps.
 License: GPL-3
 URL: https://github.com/xzguqgsntdzq/fars
 RoxygenNote: 6.1.0
+Suggests: knitr,
+    rmarkdown
+VignetteBuilder: knitr
