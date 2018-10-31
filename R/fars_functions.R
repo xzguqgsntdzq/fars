@@ -57,7 +57,6 @@ make_filename <- function(year) {
 #' Each element of a list contains data for one year.
 #'
 #' @importFrom dplyr mutate select
-#' @importFrom magrittr %>%
 #'
 #' @examples
 #' \dontrun{fars_read_years(c(2013,2015))}
@@ -90,7 +89,6 @@ fars_read_years <- function(years) {
 #'
 #' @importFrom dplyr bind_rows group_by summarize
 #' @importFrom tidyr spread
-#' @importFrom magrittr %>%
 #'
 #' @examples
 #' \dontrun{fars_summarize_years(c(2013,2015))}
