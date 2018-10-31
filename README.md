@@ -1,4 +1,4 @@
-https://travis-ci.org/xzguqgsntdzq/fars.svg?branch=master
+![alt text](https://travis-ci.org/xzguqgsntdzq/fars.svg?branch=master)
 
 # fars
 
