@@ -16,7 +16,7 @@ devtools::install_github("xzguqgsntdzq/fars")
 
 ## Example
 
-This is a basic example which shows you how to solve a common problem:
+This is a basic example of creating a summary:
 
 ``` r
 fars_summarize_years(c(2013,2015))
